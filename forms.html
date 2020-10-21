@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="Estilos.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encuesta</title>
+  </head>
+  <body>
+    <script>
+      function mensaje() {
+        alert("Developed by ION");
+      }
+    </script>
+    <h1 class="titles">¡Gracias por visitar nuestra página!</h1>
+    <h2 class="subtitles">Ahora lo dejamos con un breve cuestionario</h2>
+    <form class="formularios">
+      <h4>Tus datos</h4>
+      <label for="Nombre">Nombre:</label>
+      <input type="text" id="name" placeholder="Escribe tu nombre" />
+      <label for="Apellido">Apellido:</label>
+      <input type="text" id="Apellido" placeholder="Escribe tu Apellido" />
+      <label for="Email">Email:</label>
+      <input type="email" id="Email" placeholder="Escribe Email" />
+      <label for="Opinion"></label>
+      <p class="parrafo">¿Volverias a visitar la web?</p>
+      <select id="opcion" name="siono">
+        <option value="si">Si</option>
+        <option value="no">No</option>
+      </select>
+      <label for="mensaje">¿En que podemos mejorar?</label>
+      <textarea id="mensaje" placeholder="Escriba aqui..."></textarea>
+      <input type="button" value="Enviar" oneclick="mensaje()" />
+    </form>
+    <a href="Recetario.html"
+      ><img
+        class="boton"
+        src="https://www.flaticon.es/svg/static/icons/svg/25/25694.svg"
+    /></a>
+  </body>
+</html>
